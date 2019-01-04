@@ -1,0 +1,159 @@
+# chaves sao comandos, sintaxe = "key:value" os valores sao pares
+# as chaves serao as sentencas a serem escutadas
+# valor eh o comando a ser executado quando a chave eh falada
+#exemplo
+pomeu:keyword
+pohmew:keyword
+hello world:espeak -ven+f3 "Hello pretty. How are you doing?"
+hello there:espeak -ven+f3 "Hello handsome. How are you?"
+hello:espeak -ven+f3 "Hello handsome. What do you want me to do?"
+this is a test:echo "this is a test"
+testing:echo "testing"
+differ:echo "differ"
+difference:echo "difference"
+who made this:echo "Vitor Sgobbi made it, GPL licensed, All wrong rights reserverd ↄ⃝ Copyleft, August, 2014"
+who made it:echo "Vitor Sgobbi made it, GPL licensed, All wrong rights reserverd ↄ⃝ Copyleft, August, 2014"
+who created you:echo "Vitor Sgobbi made it, GPL licensed, All wrong rights reserverd ↄ⃝ Copyleft, August, 2014"
+open google chrome: google-chrome
+cancel:cancel
+quiet:echo "Caguei pra voce!"
+shut up:espeak -vpt+f3 "Caguei pra você jovem"
+enough:cancel
+stop command:cancel
+stop:cancel
+exit:exit
+quit:espeak -vpt+f3 "Caguei pra você jovem"
+
+#mca 100-16:
+#A fraseologia é um procedimento estabelecido com o objetivo de assegurar a
+#uniformidade das comunicações radiotelefônicas, reduzir ao mínimo o tempo de transmissão
+#das mensagens e proporcionar autorizações claras e concisas.
+
+
+#alfabeto fonetico
+alpha:echo "Alfa"
+bravo:echo "Bravo"
+charlie:echo "Charlie"
+delta:echo "Delta"
+echo:echo "Echo"
+foxtrot:echo  "Foxtrot"
+golf:echo "Golf"
+hotel:echo "Hotel"
+india:echo "India"
+juliett:echo "Juliett"
+kilo:echo "Kilo"
+lima:echo "Lima"
+mike:echo "Mike"
+november:echo "November"
+oscar:echo "Oscar"
+papa:echo "Papa"
+quebec:echo "Quebec"
+romeo:echo "Romeo"
+sierra:echo "Sierra"
+tango:echo "Tango"
+uniform:echo "Uniform"
+victor:echo "Victor"
+whisky:echo "Whisky"
+x-ray:echo "X-ray"
+yankee:echo "Yankee"
+zulu:echo "Zulu"
+
+#algarismos
+zero:echo "0"
+one:echo "1"
+two:echo "2"
+three:echo "3"
+four:echo "4"
+five:echo "5"
+six:echo "6"
+seven:echo "7"
+eight:echo "8"
+nine:echo "9"
+
+#palavras chave
+airway:echo "airway"
+approach:echo "approach"
+brazilia:echo "Brasilia"
+climb:echo "climb"
+degree:echo "degree"
+descent:echo "descent"
+east:echo "east"
+feet:echo "feet"
+increase:echo "increase"
+level:echo "level"
+miles:echo "miles"
+north:echo "north"
+south:echo "south"
+southwest:echo "southwest"
+speed:echo "speed"
+reduce:echo "reduce"
+runway:echo "runway"
+sight:echo "sight"
+west:echo "west"
+
+#comandos-chave
+#marcacao 360 graus
+bearing:echo "bearing"
+#rumo 005 graus
+course:echo "course"
+#proa 035 graus
+heading:echo "heading"
+#autorziado
+cleared:echo "cleared"
+approved:echo "approved"
+#cancelar autorizacao transmitida anteriormente
+cancel:echo "cancel"
+#continuar nas condições especificadas, ex: Mantenha VFR
+maintain:echo "maintain"
+#espere e eu o chamarei
+standby:echo "standby"
+#decolar
+take off:echo "take-off"
+#faca outro circuito
+make another circuit:echo "make another circuit"
+#faca 360 graus pela direita/esquerda, acuse novamente
+make three hundred sixty degrees
+make:echo "make"
+degrees:echo "degrees"
+to your:echo "to your"
+turn left:echo "turn left"
+turn right:echo "turn right"
+report again:echo "report again"
+#circule o aerodromo novamente
+circle the aerodrome again:echo "circle the aerodrome again"
+#evitar trafego desconhecido
+avoid unknown traffic:echo "avoid unknown traffic"
+#frases padronizadas (avisos aeronave -> torre)
+radio contact lost:echo "Radio contact lost"
+receiver failure:echo "Receiver failure"
+transmitter failure:echo "Transmitter failure"
+
+#Exemplos de manutencao de nivel de voo: PT ORO, mantenha FL240 até novo contato.
+#                             #PP MKR, mantenha FL330, aguarde para descida
+#                              #AZA 4422,desça e mantenha FL260, reporte livrando FL370
+#                              #TIB 5545, solicita descida para FL 330 proa Poços de Caldas
+until further advised:echo "until further advised"
+stand by for descent:echo "stand by for descent"
+report leaving:echo "report leaving"
+request descent to:echo "request descent to"
+
+#Mudanca de nivel de voo: "FAB 2464 , suba e mantenha FL 240,reporte atingindo"
+#                          "PT RCF, continue descida até FL 230"
+#                          "PT BBL, desça para FL 150, acuse atingindo"
+
+climb and maintain:echo "climb and maintain"
+report reaching:echo "report reaching"
+continue descent until:echo "continue descent until"
+descend to:echo "descend to"
+
+#Vetoracao para separacao de tráfego. Exemplos:
+#                                    #PT ATM, vetoração para separação de tráfego,
+#                                     #curva a esquerda proa 075, tráfego
+
+#                                     #PT MKR, vectoring for delay, maintain present heading.
+
+#                                     #PT SLB, vectoring for spacing, leave Palegre VOR heading 020.
+
+vectoring due traffic:echo "vectoring due traffic"
+vectoring for delay:echo "vectoring for delay"
+vectoring for spacing:echo "vectoring for spacing"

@@ -1,0 +1,154 @@
+# chaves sao comandos, sintaxe = "key:value" os valores sao pares
+# as chaves serao as sentencas a serem escutadas
+# valor eh o comando a ser executado quando a chave eh falada
+
+hello world:echo "hello world"
+hello there:echo "hello there"
+exit:echo exit
+quit:echo "quit"
+this:echo "this"
+test:echo "test"
+testing:echo "testing"
+this is a test:echo "this is a test"
+differ:echo "differ"
+difference:echo "difference"
+who made this:echo "Vitor Sgobbi, Licensa GPL, ↄ⃝ Copyleft xD, \n desenvolvido em 08_2014"
+
+#mca 100-16:
+#A fraseologia é um procedimento estabelecido com o objetivo de assegurar a
+#uniformidade das comunicações radiotelefônicas, reduzir ao mínimo o tempo de transmissão
+#das mensagens e proporcionar autorizações claras e concisas.
+
+
+#alfabeto fonetico
+Alpha:echo "Alfa"
+Bravo:echo "Bravo"
+Charlie:echo "Charlie" 
+Delta:echo "Delta"
+Echo:echo "Echo"
+Foxtrot:echo  "Foxtrot"
+Golf:echo "Golf"
+Hotel:echo "Hotel"
+India:echo "India"
+Juliett:echo "Juliett"
+Kilo:echo "Kilo"
+Lima:echo "Lima"
+Mike:echo "Mike"
+November:echo "November"
+Oscar:echo "Oscar"
+Papa:echo "Papa"
+Quebec:echo "Quebec"
+Romeo:echo "Romeo"
+Sierra:echo "Sierra"
+Tango:echo "Tango"
+Uniform:echo "Uniform"
+Victor:echo "Victor"
+Whisky:echo "Whisky"
+X-ray:echo "X-ray"
+Yankee:echo "Yankee"
+Zulu:echo "Zulu"
+
+#algarismos
+zero:echo "0"
+one:echo "1"
+two:echo "2"
+three:echo "3"
+four:echo "4"
+five:echo "5"
+six:echo "6"
+seven:echo "7"
+eight:echo "8"
+nine:echo "9"
+
+#palavras chave
+airway:echo "airway"
+approach:echo "approach"
+brazilia:echo "Brasilia"
+climb:echo "climb"
+degree:echo "degree"
+descent:echo "descent"
+east:echo "east"
+feet:echo "feet"
+increase:echo "increase"
+level:echo "level"
+miles:echo "miles"
+north:echo "north"
+south:echo "south"
+southwest:echo "southwest"
+speed:echo "speed"
+reduce:echo "reduce"
+runway:echo "runway"
+sight:echo "sight"
+west:echo "west"
+
+#comandos-chave
+#marcacao 360 graus
+bearing:echo "bearing"
+#rumo 005 graus
+course:echo "course"
+#proa 035 graus
+heading:echo "heading"
+#autorziado
+cleared:echo "cleared"
+approved:echo "approved"
+#cancelar autorizacao transmitida anteriormente
+cancel:echo "Cancel"
+#continuar nas condições especificadas, ex: Mantenha VFR
+maintain:echo "Maintain"
+#espere e eu o chamarei
+standby:echo "Standby"
+#decolar
+take off:echo "take-off"
+#faca outro circuito
+make another circuit:echo "make another circuit"
+#faca 360 graus pela direita/esquerda, acuse novamente
+make:echo "make"
+degrees:echo "degrees"
+to your:echo "to your"
+turn left:echo "turn left"
+turn right:echo "turn right"
+report again:echo "report again"
+#circule o aerodromo novamente
+circle the aerodrome again:echo "circle the aerodrome again"
+#evitar trafego desconhecido
+avoid unknown traffic:echo "avoid unknown traffic"
+#frases padronizadas (avisos aeronave -> torre)
+radio contact lost:echo "Radio contact lost"
+receiver failure:echo "Receiver failure"
+transmitter failure:echo "Transmitter failure"
+
+#Exemplos de manutencao de nivel de voo: PT ORO, mantenha FL240 até novo contato.
+                              #PP MKR, mantenha FL330, aguarde para descida
+                              #AZA 4422,desça e mantenha FL260, reporte livrando FL370
+                              #TIB 5545, solicita descida para FL 330 proa Poços de Caldas
+until further advised:echo "until further advised"
+stand by for descent:echo "stand by for descent"
+report leaving:echo "report leaving"
+request descent to:echo "request descent to"
+
+#Mudanca de nivel de voo: "FAB 2464 , suba e mantenha FL 240,reporte atingindo"
+                          "PT RCF, continue descida até FL 230"
+                          "PT BBL, desça para FL 150, acuse atingindo"
+
+climb and maintain:echo "climb and maintain"
+report reaching:echo "report reaching"
+continue descent until:echo "continue descent until"
+descend to:echo "descend to"
+
+#Vetoracao para separacao de tráfego. Exemplos:
+                                     #PT ATM, vetoração para separação de tráfego,
+                                     #curva a esquerda proa 075, tráfego
+
+                                     #PT MKR, vectoring for delay, maintain present heading.
+
+                                     #PT SLB, vectoring for spacing, leave Palegre VOR heading 020.
+
+vectoring due traffic:echo "vectoring due traffic"
+vectoring for delay:echo "vectoring for delay"
+vectoring for spacing:echo "vectoring for spacing"
+
+
+
+
+
+
